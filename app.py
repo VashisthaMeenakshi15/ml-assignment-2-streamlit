@@ -11,7 +11,7 @@ import matplotlib.pyplot as plt
 st.title("ML Classification Models Demo")
 
 # Load trained models
-@st.cache_resource
+# @st.cache_resource
 def load_models():
     models = {}
     models["Logistic Regression"] = joblib.load("model/logistic_regression.pkl.gz")
